@@ -25,6 +25,11 @@ console.log(tri(2, 3, (a, b) => a > b)); // 3
 // Creation de ma classe
 
 class Voiture {
+    // attribut de classe
+    static VoitudeCompte = 0;
+
+    // attribut d'instance
+    id = 0;
     roues = 4;
     couleur = "rouge";
     porte = 5;
@@ -35,16 +40,30 @@ class Voiture {
         this.couleur = couleur;
         this.porte = porte;
         this.marque = marque;
-        console.log("Je suis une voiture");
+        Voiture.VoitudeCompte++;
+        this.id = Voiture.VoitudeCompte;
+        console.log(this);
     }
 
     avancer() {
         console.log("vroum vroum");
     }
+
+    // Design pattern : singleton, factory, builder, prototype, observer, decorator, ...
+    // https://fr.wikipedia.org/wiki/Patron_de_conception
+    // Anti-pattern : https://fr.wikipedia.org/wiki/Antipattern
+    // methode de classe
+    static klaxonner() {
+        console.log("pouet pouet");
+    }
+
+    // attribut de classe
+    static roues = 4;
 }
 
+// Voiture.klaxonner();
 // Creation d'un objet
 let vroum = new Voiture(4, "grise", 4, "lambo");
 
 console.log(vroum);
-vroum.avancer();
+Voiture.klaxonner();
