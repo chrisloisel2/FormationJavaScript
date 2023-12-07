@@ -1,0 +1,21 @@
+Instructions :
+
+    Utilisation des Objets :
+        Modifiez la structure de stockage des contacts pour utiliser une classe Contact. Cette classe devra avoir des méthodes pour créer un contact, mettre à jour ses informations, et afficher ses détails.
+        Chaque contact doit être une instance de la classe Contact.
+        Ajoutez des propriétés supplémentaires à chaque contact, comme email et adresse.
+
+    Gestion des Contacts avec des Objets :
+        Utilisez les méthodes de la classe Contact pour ajouter, supprimer, rechercher, et mettre à jour les contacts dans votre application.
+
+    Requêtes HTTP :
+        Créez une fonctionnalité pour charger les contacts depuis un serveur en utilisant l'API Fetch pour effectuer des requêtes HTTP.
+        Implémentez une fonction pour sauvegarder les contacts sur un serveur. Vous pouvez simuler ceci en envoyant une requête POST à une URL fictive et en affichant les données envoyées dans la console.
+
+    Intégration des Objets et Requêtes :
+        Lors du chargement de l'application, les contacts doivent être chargés depuis le serveur.
+        Les modifications apportées aux contacts (ajout, suppression, mise à jour) doivent être reflétées sur le serveur (simulé).
+
+    Défi Supplémentaire :
+        Ajoutez une gestion des erreurs pour les requêtes HTTP.
+        Implémentez un mécanisme de synchronisation qui vérifie si les données locales sont à jour avec celles du serveur.

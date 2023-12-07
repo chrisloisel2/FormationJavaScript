@@ -1,0 +1,42 @@
+// Partie 1 : Fonctions Traditionnelles
+function addition(a, b) {
+    return a + b;
+}
+function soustraction(a, b) {
+    return a - b;
+}
+function multiplication(a, b) {
+    return a * b;
+}
+
+console.log(addition(5, 3));       // 8
+console.log(soustraction(5, 3));   // 2
+console.log(multiplication(5, 3)); // 15
+
+// Partie 2 : Fonctions Lambda
+const additionLambda = (a, b) => a + b;
+const soustractionLambda = (a, b) => a - b;
+const multiplicationLambda = (a, b) => a * b;
+
+console.log(additionLambda(5, 3));       // 8
+console.log(soustractionLambda(5, 3));   // 2
+console.log(multiplicationLambda(5, 3)); // 15
+
+// Partie 3 : Cas Pratiques
+// Manipulation de Tableaux
+const nombres = [1, 2, 3, 4, 5];
+const carres = nombres.map(n => n * n);
+console.log(carres); // [1, 4, 9, 16, 25]
+
+const pairs = nombres.filter(n => n % 2 === 0);
+console.log(pairs); // [2, 4]
+
+const somme = nombres.reduce((acc, n) => acc + n, 0);
+console.log(somme); // 15
+
+// Asynchronisme
+const attendre = () => new Promise(resolve => setTimeout(() => resolve("Terminé!"), 1000));
+attendre().then(message => console.log(message)); // "Terminé!" après 1 seconde
+
+// Partie 4 : Réflexion
+// Les discussions peuvent varier. Les fonctions lambda sont plus courtes et ne lient pas leur propre `this`, ce qui les rend utiles pour les opérations en ligne et les fonctions de rappel. Les fonctions traditionnelles sont plus polyvalentes et nécessaires dans des cas où il est essentiel de lier `this`.

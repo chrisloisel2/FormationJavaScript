@@ -1,0 +1,19 @@
+Instructions :
+
+    Déclaration des Variables :
+        Déclarez une variable pour stocker les contacts sous forme de tableau d'objets. Chaque contact aura un nom, un prénom, et un numéro de téléphone.
+
+    Opérations de Base :
+        Écrivez une fonction pour ajouter un nouveau contact au tableau.
+        Écrivez une fonction pour supprimer un contact par son nom.
+
+    Structures de Contrôle :
+        Utilisez une boucle pour afficher tous les contacts dans la console.
+        Ajoutez une condition pour vérifier si un contact existe déjà avant de l'ajouter.
+
+    Fonctions :
+        Créez une fonction pour rechercher un contact par son nom et afficher ses détails.
+        Créez une fonction pour mettre à jour le numéro de téléphone d'un contact.
+
+    Tableaux :
+        Utilisez des méthodes de tableau comme push, find, filter, indexOf pour gérer les opérations sur le tableau de contacts.
