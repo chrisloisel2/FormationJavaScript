@@ -1,0 +1,26 @@
+Partie 1 : Fonctions Traditionnelles
+
+    Création de Fonctions : Créez trois fonctions traditionnelles qui effectuent des opérations mathématiques simples
+	(par exemple, addition, soustraction, multiplication).
+    Appel de Fonctions : Appelez ces fonctions avec différents arguments et affichez les résultats.
+
+Partie 2 : Fonctions Lambda
+
+    Conversion en Fonctions Lambda : Convertissez les fonctions traditionnelles de la Partie 1 en fonctions lambda.
+    Comparaison de Comportements : Comparez le comportement des fonctions lambda avec les fonctions traditionnelles.
+	Notez les différences dans l'utilisation de this et comment elles affectent le contexte d'exécution.
+
+Partie 3 : Cas Pratiques
+
+    Manipulation de Tableaux : Utilisez des fonctions lambda pour manipuler des tableaux. Par exemple, utilisez .map(), .filter(), et .reduce() pour transformer des données.
+    Asynchronisme : Créez un exemple où une fonction lambda est utilisée dans une promesse ou une fonction asynchrone.
+
+Partie 4 : Réflexion
+
+    Avantages et Inconvénients : Discutez des avantages et des inconvénients de l'utilisation des fonctions lambda par rapport aux fonctions traditionnelles.
+    Cas d'Utilisation : Identifiez des scénarios où l'utilisation de fonctions lambda est préférable et où il est préférable d'utiliser des fonctions traditionnelles.
+
+Ressources
+
+    Documentation MDN sur les fonctions fléchées: MDN Web Docs
+    Documentation MDN sur les fonctions: MDN Web Docs

@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: stretch;
+}
+
+#Farine {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+#Lait {
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
+
+#Oeufs {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
+
+#Sucre {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+}
