@@ -1,0 +1,49 @@
+Exercices sur .filter()
+
+    Filtrer les nombres pairs :
+        Créez un tableau de nombres.
+        Utilisez .filter() pour créer un nouveau tableau contenant uniquement les nombres pairs.
+
+    Filtrer les chaînes de caractères longues :
+        Créez un tableau de chaînes de caractères.
+        Utilisez .filter() pour créer un nouveau tableau contenant uniquement les chaînes de plus de 5 caractères.
+
+Exercices sur .map()
+
+    Noms en majuscules :
+        Prenez un tableau de noms.
+        Utilisez .map() pour créer un nouveau tableau où chaque nom est converti en majuscules.
+
+    Calculer le carré des nombres :
+        Créez un tableau de nombres.
+        Utilisez .map() pour créer un nouveau tableau où chaque nombre est remplacé par son carré.
+
+Exercices sur .reduce()
+
+    Calculer la somme :
+        Créez un tableau de nombres.
+        Utilisez .reduce() pour calculer la somme de tous les nombres.
+
+    Compter le nombre d'occurrences :
+        Créez un tableau de chaînes de caractères.
+        Utilisez .reduce() pour créer un objet qui compte le nombre de fois qu'une chaîne apparaît dans le tableau.
+
+Exercices sur .sort()
+
+    Trier par âge :
+        Créez un tableau d'objets avec un champ age.
+        Utilisez .sort() avec une fonction de comparaison pour trier le tableau par âge.
+
+    Trier les chaînes alphabétiquement :
+        Créez un tableau de mots.
+        Utilisez .sort() pour trier les mots dans l'ordre alphabétique.
+
+Exercices sur .find()
+
+    Trouver par nom :
+        Créez un tableau d'objets représentant des personnes avec des noms.
+        Utilisez .find() pour trouver la première personne dont le nom correspond à un critère donné.
+
+    Trouver le premier nombre supérieur à 10 :
+        Créez un tableau de nombres.
+        Utilisez .find() pour trouver le premier nombre dans le tableau qui est supérieur à 10
