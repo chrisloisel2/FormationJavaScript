@@ -45,7 +45,7 @@ function printPoint(point: Point, label: string = "Point"): void {
 let p1 = createPoint(4, 5);
 let p2 = createPoint(2, 3);
 
-let addedPoints = manipulatePoints(p1, p2, Operation.ADD);
+let addedPoints = manipulatePoints(p1, p2, Operation.ADD, 5);
 printPoint(addedPoints, "Added Point");
 
 let subtractedPoints = manipulatePoints(p1, p2, Operation.SUBTRACT);
