@@ -15,15 +15,25 @@ function createPoint(x: number, y: number): Point {
 function manipulatePoints(
     point1: Point,
     point2: Point,
-    operation: Operation
+    operation: Operation,
+    factor: number = 1
 ): Point {
     switch (operation) {
         case Operation.ADD:
-            return [point1[0] + point2[0], point1[1] + point2[1]];
+            return [
+                (point1[0] + point2[0]) * factor,
+                (point1[1] + point2[1]) * factor,
+            ];
         case Operation.SUBTRACT:
-            return [point1[0] - point2[0], point1[1] - point2[1]];
+            return [
+                (point1[0] - point2[0]) * factor,
+                (point1[1] - point2[1]) * factor,
+            ];
         case Operation.MULTIPLY:
-            return [point1[0] * point2[0], point1[1] * point2[1]];
+            return [
+                point1[0] * point2[0] * factor,
+                point1[1] * point2[1] * factor,
+            ];
     }
 }
 
