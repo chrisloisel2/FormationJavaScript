@@ -2,11 +2,57 @@
 let contacts = [];
 let test = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log(
-    test.every(function (param) {
-        return param % 1 === 0;
-    })
-);
+// function compter(params) {
+//     for (let i = 0; i < params.length; i++) {
+//         console.log(params[i]);
+//     }
+// }
+
+// (params) => {
+//     for (let i = 0; i < params.length; i++) {
+//         console.log(params[i]);
+//     }
+// };
+
+// function tri(a, b, fonction) {
+//     if (fonction(a, b)) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// }
+
+// (a, b, fonction) => {
+//     if (fonction(a, b)) {
+//         return a;
+//     } else {
+//         return b;
+//     }
+// };
+
+// Exercices sur .filter()
+
+//     Filtrer les nombres pairs :
+//         Créez un tableau de nombres.
+//         Utilisez .filter() pour créer un nouveau tableau contenant uniquement les nombres pairs.
+
+//     Filtrer les chaînes de caractères longues :
+//         Créez un tableau de chaînes de caractères.
+//         Utilisez .filter() pour créer un nouveau tableau contenant uniquement les chaînes de plus de 5 caractères.
+
+// Lambda
+// Retirer le mot clefs function et le nom de la fonction
+// Ajouter une flèche => entre les paramètres et le corps de la fonction
+// SI le nombre de paramètres est égal à 1, on peut retirer les parenthèses
+// SI le corps de la fonction est une seule ligne, on peut retirer les accolades et le mot clefs return
+
+function filtreAboveFive(params) {
+    return params > 5;
+}
+
+(params) => params > 5;
+
+console.log(test.filter(filtreAboveFive));
 
 console.log(
     test.map((param) => {
