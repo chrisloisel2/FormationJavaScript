@@ -1,3 +1,5 @@
+// Correction Refactorisé
+
 type Point = [number, number];
 
 enum Operation {
