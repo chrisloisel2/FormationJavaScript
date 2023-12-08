@@ -1,0 +1,48 @@
+1. Définition des types et énumération
+
+    Point : Créez un type Point qui est un tuple de deux nombres [number, number].
+    Operation : Créez une énumération Operation avec les valeurs ADD, SUBTRACT, et MULTIPLY.
+
+2. Fonctions
+a. Fonction createPoint
+
+    Description : Crée une nouvelle instance de Point.
+    Paramètres : Deux nombres x et y.
+    Retour : Le tuple Point.
+
+b. Fonction manipulatePoints
+
+    Description : Applique une opération sur deux points.
+    Paramètres :
+        point1 et point2 de type Point.
+        operation de type Operation.
+        factor est un paramètre optionnel de type number. La valeur par défaut est 1.
+    Retour : Un nouveau Point résultant de l'opération.
+
+---------------------------------------------------------
+
+b.bis Fonction AddPoint
+
+point a + point b
+x + x et y + y
+
+	Description : Applique une opération sur deux points.
+	Paramètres :
+		point1 et point2 de type Point.
+		operation de type Operation.
+		factor est un paramètre optionnel de type number. La valeur par défaut est 1.
+	Retour : Un nouveau Point résultant de l'opération.
+
+c. Fonction printPoint
+
+    Description : Affiche un point dans la console.
+    Paramètres :
+        point de type Point.
+        label est un paramètre optionnel de type string. La valeur par défaut est "Point".
+    Comportement : Affiche le point sous la forme "Point: (x, y)".
+
+3. Scénario de Test
+
+    Créez deux points p1 et p2.
+    Utilisez manipulatePoints pour ajouter, soustraire et multiplier ces points avec différents facteurs.
+    Affichez les résultats en utilisant printPoint.

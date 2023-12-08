@@ -1,0 +1,5 @@
+telecharger NodeJs : https://nodejs.org/en
+telecharger ts-node : npm install -g ts-node
+telecharger typescript : npm install -g typescript
+Executer votre fichier : ts-node nomFichier.ts
+

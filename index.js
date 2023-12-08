@@ -65,7 +65,12 @@ class Voiture {
 // Creation d'un objet
 let vroum = new Voiture(4, "grise", 4, "lambo");
 
-console.log(vroum);
-Voiture.klaxonner();
+// console.log(vroum);
+// Voiture.klaxonner();
 
 // Code nodeJs de mon serveur
+
+let nom = "Loisel";
+let prenom = "Christopher";
+
+console.log(`prenom = ${prenom}, nom= ${vroum.marque} !`);
