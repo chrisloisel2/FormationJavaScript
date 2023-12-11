@@ -42,3 +42,21 @@ function testFunction(a: number, b?: number) {
 function testFunction2(a: number, b: number = 6) {
     return a + b;
 }
+
+function testFunction3() {
+    console.log("test");
+}
+
+// Fetch en TypeScript
+
+function printData2(data) {
+    console.log(data);
+}
+
+function getJson2(objet) {
+    objet.json().then(printData2);
+}
+
+function getUser2() {
+    fetch("http://82.165.127.44/api/user").then(getJson2);
+}

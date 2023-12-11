@@ -1,0 +1,23 @@
+Création et Manipulation de Listes d'Utilisateurs :
+
+    Créez une liste vide d'utilisateurs. Utilisez l'API pour récupérer les utilisateurs et ajoutez-les à cette liste. Ensuite, implémentez des fonctions pour ajouter, supprimer, et chercher des utilisateurs dans cette liste.
+
+Gestion des Doublons dans une Liste :
+
+    Après avoir ajouté des utilisateurs à la liste, écrivez une fonction qui élimine les doublons basée sur l'ID ou le nom de l'utilisateur.
+
+Tri des Utilisateurs dans une Liste :
+
+    Implémentez une fonction pour trier les utilisateurs dans la liste par différents critères (comme l'âge, le nom ou le rôle).
+
+Groupe d'Utilisateurs par Rôle :
+
+    Écrivez une fonction qui regroupe les utilisateurs par rôle (par exemple, tous les 'admin' dans un groupe) et affiche ces groupes.
+
+Liste Dynamique avec Ajout d'Utilisateurs :
+
+    Créez une interface où les utilisateurs peuvent être ajoutés à la liste dynamiquement en utilisant le formulaire de saisie et la requête POST pour envoyer ces données à l'API.
+
+Filtrage Avancé dans une Liste :
+
+    Implémentez des fonctions de filtrage avancées pour la liste d'utilisateurs, permettant de combiner différents critères de filtrage (comme l'âge et le rôle).
