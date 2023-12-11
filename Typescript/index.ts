@@ -30,6 +30,13 @@ let ProfileUstilisateur: Fumeur = Fumeur.Regulier;
 let User: [string, number, Fumeur] = ["Christopher", 27, Fumeur.Regulier];
 
 // Union des types
+// types
+// string
+// number
+// boolean
+// null
+// undefined
+// any
 
 let NomPeutEtreUndefined: string | undefined = "Christopher";
 
