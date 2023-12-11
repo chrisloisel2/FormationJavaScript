@@ -1,0 +1,29 @@
+Dans ce TP vous devrez réaliser :
+
+un client qui se connecte à un serveur pour recuperer une liste de tache :
+// Crud : Create, Read, Update, Delete
+- le client doit pouvoir ajouter une tache
+- le client doit pouvoir supprimer une tache
+- le client doit pouvoir modifier une tache
+- le client doit pouvoir afficher la liste des taches
+
+vous coderez en typescript des fonction permettant :
+	- de faire la liste des taches
+	- d'ajouter une tache
+	- de supprimer une tache
+	- de modifier une tache
+	- de recuperer une tache par son id
+	- d'afficher uniquement les taches terminées
+	- d'afficher uniquement les taches non terminées
+	- d'afficher uniquement les taches en cours
+	- d'ordonner les taches par leur id (croissant et decroissant)
+
+Vous devrez utiliser des classes ou des interfaces pour représenter les taches.
+vous utiliserez les routes du backend suivant :
+
+- GET http://82.165.127.44/api/taches : retourne la liste des taches
+- GET http://82.165.127.44/api/taches/:id : retourne la tache dont l'id est passé en parametre
+- POST http://82.165.127.44/api/taches : ajoute une tache
+- PUT http://82.165.127.44/api/taches/:id : modifie la tache dont l'id est passé en parametre
+- DELETE http://82.165.127.44/api/taches/:id : supprime la tache dont l'id est passé en parametre
+

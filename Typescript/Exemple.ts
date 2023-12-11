@@ -5,18 +5,12 @@ enum Role {
     Utilisateur = "Utilisateur",
 }
 
-class Utilisateur {
-    id: number = 0;
+interface Utilisateur {
+    id: number;
     name: string;
-    age: number = 0;
+    age: number;
     role: string;
     location: string;
-
-    constructor(name: string, location: string, role: string) {
-        this.name = name;
-        this.location = location;
-        this.role = role;
-    }
 }
 
 const lst: Utilisateur[] = [];
@@ -37,13 +31,17 @@ function printList() {
     console.log(lst);
 }
 
+// any = n'importe quel type
+// Utilisateur[] = tableau d'utilisateur
+
 function populateList() {
-    fetch("http://82.165.127.44/api/users").then((reponse: any) =>
-        reponse.json().then((data: any) => {
-            console.log(data);
-        })
-    );
+    fetch("http://82.165.127.44/api/users")
+        .then((response: any) => response.json())
+        .then((data: any) => {
+            for (let element of data) {
+                addList(element);
+            }
+        });
 }
 
 populateList();
-getStagiaire();
